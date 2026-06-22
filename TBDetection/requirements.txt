@@ -1,0 +1,9 @@
+tensorflow
+keras
+numpy
+pandas
+matplotlib
+nltk
+opencv-python
+pyttsx3
+SpeechRecognition
