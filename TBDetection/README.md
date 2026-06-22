@@ -8,3 +8,5 @@ Download the TB X-ray dataset from Kaggle and create the following folder struct
 
 Split the downloaded data equally between the train and validation folders.
 
+- In `data/` folder also inlcude intents.json data that contains chats to train
+  The model for chat 
