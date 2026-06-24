@@ -7,3 +7,6 @@ nltk
 opencv-python
 pyttsx3
 SpeechRecognition
+ipykernel
+requests
+pillow

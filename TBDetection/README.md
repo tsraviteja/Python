@@ -56,3 +56,24 @@ The `requirements.txt` file includes:
 - `opencv-python` - Computer vision for image processing
 - `pyttsx3` - Text-to-speech functionality
 - `SpeechRecognition` - Speech-to-text functionality
+
+### Step 4: Configure Jupyter Kernel for Notebooks
+To run the Jupyter notebooks with the virtual environment, install and configure the IPython kernel:
+
+```bash
+pip install ipykernel
+python -m ipykernel install --user --name=venv --display-name "Python (.venv)"
+```
+
+This creates a Python kernel linked to your virtual environment. When opening notebooks in VS Code or Jupyter, select the "Python (.venv)" kernel to ensure the correct dependencies are used.
+
+### Step 5: Install GUI and Additional Dependencies
+```bash
+sudo apt install python3.12-tk -y
+pip install requests
+pip install --upgrade --force-reinstall pillow
+```
+
+- `python3.12-tk` - Required for Tkinter GUI support (used by the interactive chatbot interface)
+- `requests` - HTTP library for making web requests
+- `pillow` - Image processing library for enhanced image handling
